@@ -24,7 +24,7 @@ public class MainMahasiswaEnkapsulasi {
 
         System.out.println("=== PENGUJIAN KONSTRUKTOR 2 (SEBAGIAN) ===");
         // Bikin objek dengan Nama & NIM langsung, sisanya disusul pakai Setter
-        MahasiswaEnkapsulasi mhs2 = new MahasiswaEnkapsulasi("Andi Saputra", "2211523002");
+        MahasiswaEnkapsulasi mhs2 = new MahasiswaEnkapsulasi("Andi Saputra", "2501083009");
         mhs2.setJurusan("Sistem Informasi");
         mhs2.setUmur(21);
         mhs2.setIpk(2.75);
@@ -33,7 +33,7 @@ public class MainMahasiswaEnkapsulasi {
 
         System.out.println("=== PENGUJIAN KONSTRUKTOR 3 (LENGKAP) ===");
         // Bikin objek langsung jadi (semua data diisi di awal)
-        MahasiswaEnkapsulasi mhs3 = new MahasiswaEnkapsulasi("Budi Santoso", "2211523003", "Teknik Informatika", 22, 3.20);
+        MahasiswaEnkapsulasi mhs3 = new MahasiswaEnkapsulasi("Budi Santoso", "2501083010", "Teknik Informatika", 22, 3.20);
         mhs3.tampilkanInfo();
         System.out.println("----------------------------------------\n");
     }
