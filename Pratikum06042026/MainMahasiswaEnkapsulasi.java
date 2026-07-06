@@ -11,8 +11,7 @@ package Pratikum06042026;
 public class MainMahasiswaEnkapsulasi {
      public static void main(String[] args) {
         
-        System.out.println("=== PENGUJIAN KONSTRUKTOR 1 (KOSONG) ===");
-        // Bikin objek kosong, lalu isi pakai Setter
+        System.out.println("=== PENGUJIAN KONSTRUKTOR 1 ===");
         MahasiswaEnkapsulasi mhs1 = new MahasiswaEnkapsulasi();
         mhs1.setNama("Zaki");
         mhs1.setNim("2501083008");
@@ -22,7 +21,7 @@ public class MainMahasiswaEnkapsulasi {
         mhs1.tampilkanInfo();
         System.out.println("----------------------------------------\n");
 
-        System.out.println("=== PENGUJIAN KONSTRUKTOR 2 (SEBAGIAN) ===");
+        System.out.println("=== PENGUJIAN KONSTRUKTOR 2 ===");
         // Bikin objek dengan Nama & NIM langsung, sisanya disusul pakai Setter
         MahasiswaEnkapsulasi mhs2 = new MahasiswaEnkapsulasi("Andi Saputra", "2501083009");
         mhs2.setJurusan("Sistem Informasi");
@@ -31,7 +30,7 @@ public class MainMahasiswaEnkapsulasi {
         mhs2.tampilkanInfo();
         System.out.println("----------------------------------------\n");
 
-        System.out.println("=== PENGUJIAN KONSTRUKTOR 3 (LENGKAP) ===");
+        System.out.println("=== PENGUJIAN KONSTRUKTOR 3  ===");
         // Bikin objek langsung jadi (semua data diisi di awal)
         MahasiswaEnkapsulasi mhs3 = new MahasiswaEnkapsulasi("Budi Santoso", "2501083010", "Teknik Informatika", 22, 3.20);
         mhs3.tampilkanInfo();
