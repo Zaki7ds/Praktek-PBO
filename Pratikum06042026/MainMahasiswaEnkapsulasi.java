@@ -14,11 +14,11 @@ public class MainMahasiswaEnkapsulasi {
         System.out.println("=== PENGUJIAN KONSTRUKTOR 1 (KOSONG) ===");
         // Bikin objek kosong, lalu isi pakai Setter
         MahasiswaEnkapsulasi mhs1 = new MahasiswaEnkapsulasi();
-        mhs1.setNama("Daffa");
-        mhs1.setNim("2211523001");
+        mhs1.setNama("Zaki");
+        mhs1.setNim("2501083008");
         mhs1.setJurusan("Teknik Komputer");
         mhs1.setUmur(20);
-        mhs1.setIpk(3.85);
+        mhs1.setIpk(3.55);
         mhs1.tampilkanInfo();
         System.out.println("----------------------------------------\n");
 
