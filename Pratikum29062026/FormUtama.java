@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author HYPE AMD
+ * @author zakiv
  */
 public class FormUtama extends javax.swing.JFrame {
 
