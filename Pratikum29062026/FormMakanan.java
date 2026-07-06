@@ -6,7 +6,7 @@ package Pratikum29062026;
 
 /**
  *
- * @author HYPE AMD
+ * @author zakiv
  */
 public class FormMakanan extends javax.swing.JFrame {
 
