@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author acer
+ * @author zakiv
  */
 public class FormGajiPegawai extends javax.swing.JFrame {
 
